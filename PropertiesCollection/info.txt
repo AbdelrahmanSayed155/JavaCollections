@@ -1,0 +1,28 @@
+Properties class in Java
+
+The properties object contains key and value pair both as a string. 
+The java.util.Properties class is the subclass of Hashtable.
+
+It can be used to get property value based on the property key. 
+The Properties class provides methods to get data from properties file and store data into properties file. 
+Moreover, it can be used to get properties of system.
+
+Advantage of properties file
+
+Recompilation is not required, 
+if information is changed from properties file: 
+If any information is changed from the properties file, 
+you don't need to recompile the java class.
+ It is used to store information which is to be changed frequently.
+
+
+
+
+
+
+
+
+
+
+
+

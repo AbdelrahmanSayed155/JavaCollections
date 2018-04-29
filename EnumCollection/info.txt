@@ -1,0 +1,26 @@
+Java EnumSet class is the specialized Set implementation for use with enum types.
+ It inherits AbstractSet class and implements the Set interface.
+declaration
+public abstract class EnumSet<E extends Enum<E>> extends AbstractSet<E> implements Cloneable, Serializable  
+-----------------------
+Java EnumMap class is the specialized Map implementation for enum keys.
+It inherits Enum and AbstractMap classes.
+-----------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

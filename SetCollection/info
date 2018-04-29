@@ -1,0 +1,64 @@
+Java HashSet class
+
+Java HashSet class hierarchy
+Java HashSet class is used to create a collection that uses a hash table for storage. It inherits the AbstractSet class and implements Set interface.
+
+The important points about Java HashSet class are:
+
+HashSet stores the elements by using a mechanism called hashing.
+HashSet contains unique elements only.
+
+
+public class HashSet<E> extends AbstractSet<E> implements Set<E>, Cloneable, Serializable  
+
+HashSet Methods 
+void clear()	It is used to remove all of the elements from this set.
+boolean contains(Object o)	It is used to return true if this set contains the specified element.
+boolean add(Object o)	It is used to adds the specified element to this set if it is not already present.
+boolean isEmpty()	It is used to return true if this set contains no elements.
+boolean remove(Object o)	It is used to remove the specified element from this set if it is present.
+Object clone()	It is used to return a shallow copy of this HashSet instance: the elements themselves are not cloned.
+Iterator iterator()	It is used to return an iterator over the elements in this set.
+int size()
+
+
+   implement code into class using for hashset  {
+ ---- public boolean equals(Object obj)
+ --- public int hashCode()
+}
+
+
+Java LinkedHashSet class is a Hash table and Linked list implementation of the set interface. It inherits HashSet class and implements Set interface.
+
+The important points about Java LinkedHashSet class are:
+
+Contains unique elements only like HashSet.
+Provides all optional set operations, and permits null elements.
+Maintains insertion order.
+Hierarchy of LinkedHashSet class
+called hashed becuase it using HashMap object for internally to store it’s elements
+
+The LinkedHashSet class extends HashSet class which implements Set interface. The Set interface inherits Collection and Iterable interfaces in hierarchical order.
+
+-----------------
+Java TreeSet class implements the Set interface that uses a tree for storage. It inherits AbstractSet class and implements NavigableSet interface. The objects of TreeSet class are stored in ascending order.
+
+The important points about Java TreeSet class are:
+
+Contains unique elements only like HashSet.
+Access and retrieval times are quiet fast.
+Maintains ascending order.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
