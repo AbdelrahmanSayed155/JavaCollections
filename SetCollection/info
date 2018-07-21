@@ -50,6 +50,9 @@ Access and retrieval times are quiet fast.
 Maintains ascending order.
 
 
+hashSet set elemnt by hashvalue so it order o(1)
+hashlinkedSet is linkedList have prperty of Set 
+treeSet is set and sorting desending 
 
 
 
