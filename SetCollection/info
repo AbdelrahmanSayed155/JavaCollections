@@ -1,7 +1,8 @@
 Java HashSet class
 
 Java HashSet class hierarchy
-Java HashSet class is used to create a collection that uses a hash table for storage. It inherits the AbstractSet class and implements Set interface.
+Java HashSet class is used to create a collection that uses a hash table for storage. It inherits the AbstractSet 
+class and implements Set interface.
 
 The important points about Java HashSet class are:
 
@@ -28,7 +29,8 @@ int size()
 }
 
 
-Java LinkedHashSet class is a Hash table and Linked list implementation of the set interface. It inherits HashSet class and implements Set interface.
+Java LinkedHashSet class is a Hash table and Linked list implementation of the set interface.
+ It inherits HashSet class and implements Set interface.
 
 The important points about Java LinkedHashSet class are:
 
@@ -38,10 +40,13 @@ Maintains insertion order.
 Hierarchy of LinkedHashSet class
 called hashed becuase it using HashMap object for internally to store it’s elements
 
-The LinkedHashSet class extends HashSet class which implements Set interface. The Set interface inherits Collection and Iterable interfaces in hierarchical order.
+The LinkedHashSet class extends HashSet class which implements Set interface. 
+The Set interface inherits Collection and Iterable interfaces in hierarchical order.
 
 -----------------
-Java TreeSet class implements the Set interface that uses a tree for storage. It inherits AbstractSet class and implements NavigableSet interface. The objects of TreeSet class are stored in ascending order.
+Java TreeSet class implements the Set interface that uses a tree for storage.
+ It inherits AbstractSet class and implements NavigableSet interface.
+ The objects of TreeSet class are stored in ascending order.
 
 The important points about Java TreeSet class are:
 

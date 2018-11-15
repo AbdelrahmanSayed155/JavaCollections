@@ -27,7 +27,8 @@ Object getValue()	It is used to obtain value.
 Java HashMap class
 
 Java HashMap class hierarchy
-Java HashMap class implements the map interface by using a hashtable. It inherits AbstractMap class and implements Map interface.
+Java HashMap class implements the map interface by using a hashtable. 
+It inherits AbstractMap class and implements Map interface.
 
 The important points about Java HashMap class are:
 
@@ -101,7 +102,8 @@ Declaration
 public class Hashtable<K,V> extends Dictionary<K,V> implements Map<K,V>, Cloneable, Serializable  
 ---------------------------
 HashMap	                                Hashtable
-1) HashMap is non synchronized. It is not-thread safe and can't be shared between many threads without proper synchronization code.	Hashtable is synchronized. It is thread-safe and can be shared with many threads.
+1) HashMap is non synchronized. It is not-thread safe and can't be shared between many threads without proper synchronization
+ code.	Hashtable is synchronized. It is thread-safe and can be shared with many threads.
 2) HashMap allows one null key and multiple null values.	Hashtable doesn't allow any null key or value.
 3) HashMap is a new class introduced in JDK 1.2.	Hashtable is a legacy class.
 4) HashMap is fast.	Hashtable is slow.
